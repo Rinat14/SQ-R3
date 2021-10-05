@@ -1,0 +1,57 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+}
+body {
+	min-width: 320px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	color: #000;
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+}
+body.hidden-scroll {
+	overflow-y: hidden;
+}
+::-webkit-scrollbar {
+	width: 14px;
+}
+::-webkit-scrollbar-track {
+	background-color: #333;
+}
+::-webkit-scrollbar-thumb {
+	background-color: #707070;
+	border: 3px solid #333;
+	border-radius: 30px;
+}
+h1 {
+	font-family: 'Revalia', cursive;
+	font-weight: 400;
+	font-size: 36px;
+}
+h2 {
+	font-size: 40px;
+	font-weight: 700;
+}
+h3 {
+	font-size: 30px;
+	font-weight: 400;
+}
+h4 {
+	font-weight: 500;
+	font-size: 20px;
+}
+h5 {
+	font-weight: 400;
+	font-size: 20px;
+}
+img {
+	width: 100%;
+	height: auto;
+}
+li {
+	list-style: none;
+}
